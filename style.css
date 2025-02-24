@@ -33,6 +33,7 @@ body {
   font-size: 1.25rem;
 }
 #heading {
+  justify-content: center;
   margin-top: 50px;
 }
 #heading h1 {
@@ -62,35 +63,61 @@ body {
 }
 #smallheading h5 {
   text-transform: uppercase;
-  font-size: .5vw;
+  font-size: 0.5vw;
   margin-top: 10px;
   text-align: right;
 }
-#herofooter{
-    padding: 0 2vw;
-    width: 100%;
-    position: absolute;
-    bottom: 3%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+#herofooter {
+  padding: 0 2vw;
+  width: 100%;
+  position: absolute;
+  bottom: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-#herofooter a{
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
+#herofooter a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#herofooter #iconset {
+  display: flex;
+  gap: 5px;
+}
+#herofooter .circle {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #888;
+}
 
+#second{
+  color: white;
+  padding-right: 10vw;
+  padding-top: 180px;
+  background-color:black;
+  width: 100%;
 }
-#herofooter #iconset{
-    display: flex;
-    gap: 5px;
+
+.elem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100;
+  padding: 3.5vw 3vw;
+  padding-right: 0;
+  border-top: 1px solid #888;
 }
-#herofooter .circle{
-    display: flex;
-    width: 25px;
-    height: 25px;
-    align-items: center;
-    justify-content: center;       
-    border-radius: 50%;
-    background-color: #888;
+
+.elem h1{
+  text-transform: uppercase;
+  font-size: 8rem;
+   opacity: .7;
+}
+.elemlast {
+    border-bottom: 1px solid #888
 }
